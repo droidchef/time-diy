@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bluetooth_serial/flutter_bluetooth_serial.dart';
+import 'activities_dashboard/activities_dashboard.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(
+  MaterialApp(
+    title: 'Timecube Tracker',
+    home: ActivitiesDashboard(),
+  )
+);
 
 ///
 ///
